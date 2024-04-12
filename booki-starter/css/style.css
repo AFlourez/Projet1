@@ -260,23 +260,29 @@ nav {
     margin: 40px 0px 40px 0px;
 }
 
-.Filtres p{
-   width: 54px;
-   height: 21px;
+.Filtres p{ 
+   display: flex;
+   align-items: center;
    font-size: 18px;
    text-align: center;
-   line-height: 21.13px;
    font-weight: bold;
 }
 
+.raccourcis{
+    display: flex;
+    gap: 15px;
+}
+
 .raccourcis button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 50px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     padding: 4px 19px 4px 19px;
-    gap: 10px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     background-color: white;
 
@@ -290,6 +296,13 @@ nav {
     background-color: #DEEBFF;
 }
 
+.raccourcis i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+}
 
 .information {
     display: flex;
