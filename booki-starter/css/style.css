@@ -178,14 +178,132 @@ header{
     justify-content: row;
 }
 
+.logo img{
+    width: 61.09px;
+    height: auto;
+    padding: 20px 0px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content:flex-end;
-    gap: 20px;
+    gap: 68px;
   }
+li:hover {
+    color: #0065FC ;
+    border-top: 1px solid #0065FC
+}
 
 nav {
     width: 100%;
   }
 
+.search {
+    display: flex;
+    justify-content: flex-start;
+    width: 377px;
+    height: 49px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+/* A l'avenir, faire d'abord la div, puis ajouter le logo */
+.search i{
+    display: flex;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+
+
+.search input {
+    width: 148px;
+    height: 21px;
+    padding: 16px 19px 10px 19px;
+    border-top: 1px solid #F2F2F2;
+    border-left: none;
+    border-bottom: 1px solid #F2F2F2;
+    border-right: none;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search input:focus{
+    outline-color: transparent;
+    outline-style: none;
+}
+
+.search button {
+    width: 132px;
+    height: 49px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    gap: 10px;
+    border: 0px;
+}
+
+.Filtres{
+    display: flex;
+    justify-content: flex-start;
+    width: 758px;
+    height: 50px;
+    gap: 15px;
+    margin: 40px 0px 40px 0px;
+}
+
+.Filtres p{
+   width: 54px;
+   height: 21px;
+   font-size: 18px;
+   text-align: center;
+   line-height: 21.13px;
+   font-weight: bold;
+}
+
+.raccourcis button{
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.raccourcis i{
+    padding-right: 6px;
+}
+
+.raccourcis button:hover{
+    background-color: #DEEBFF;
+}
+
+
+.information {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.information i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.information p{
+    font-size: 16px;
+    line-height: 18.78px;
+}

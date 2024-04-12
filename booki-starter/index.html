@@ -12,12 +12,15 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/0a6c1defad.js" crossorigin="anonymous"></script>  <!-- Icones -->
 </head>
 
 <body>
     <div class="main-container">
         <header>
-            <img src="./images/logo/Booki@3x.png" alt="Booki" />
+            <div class="logo">
+                <img src="./images/logo/Booki@3x.png" alt="Booki" >
+            </div>
                 <!-- Bloc navigation -->
             <nav>
                 <ul> 
@@ -26,10 +29,48 @@
                 </ul>
             </nav>
         </header>
+
         <main>
+            <!-- ConteneurTOP -->
+            <!-- Barre de recherche -->
+           <div class="conteneurTOP">
+                <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre ville ou en pleine nature</p>
+                        <div class="search">
+                            <i class="fa-solid fa-location-dot fa-xl" style="color: #000000;"></i>
+                            <input type="text" id="city-input" placeholder="Marseille, France">
+                            <button id="search-button">Rechercher</button>     
+                        </div>
+           <!-- Fin barre de recherhe -->
+           <!-- Début Filtres -->
+
+                <div class="Filtres">
+                    <p>Filtres</p>
+                        <div class="raccourcis">
+                            <button id="eco"><i class="fa-solid fa-money-bill"></i><spam>Économique</spam></button>
+                            <button id="fam"><i class="fa-solid fa-person"></i><spam>Familial</spam></button>
+                            <button id="rom"><i class="fa-solid fa-heart"></i><spam>Romantique</spam></button>
+                            <button id="pepite"><i class="fa-solid fa-fire"></i><spam>Nos pépites</spam></button>
+                        </div>
+                </div>
+                    <div class="information">
+                        <i class="fa-solid fa-circle-info fa-xl"></i>
+                        <p>Plus de 500 logements sont disponible dans cette ville</p></div>
+                
+
+
+
+
+
+
+
+<!-- manque les div de fin -->
+
+           </div>
+            <!-- ConteneurTOP -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                <!-- hebergements à remplir -->
+                <!-- Hébergements à remplir -->
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
