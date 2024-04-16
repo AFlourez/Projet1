@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px
 }
 
 .main-container {
@@ -101,7 +102,7 @@ a .more {
     display: flex;
     flex-direction: column;
     width: 240.33px;
-    height: 207.25px;
+    height: 197.25px;
     gap: 4px;
 }
 
@@ -116,6 +117,7 @@ a .more {
     height: 64.25px;
     padding: 0px 15px 0px 15px;
     gap: 8px;
+    
 }
 
 .hebergements-cards .card-title {
@@ -131,6 +133,11 @@ a .more {
     margin-bottom: 5px;
 }
 
+.plus h3{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -392,3 +399,67 @@ nav {
     font-size: 16px;
 
 }
+
+/* Activité à Marseille */
+
+.activites{
+    width: 1340px;
+    height: 559.02px;
+    padding: 30px;
+}
+
+.activites .section-title{
+    padding: 30px 0px 30px 0px;
+}
+.activites-cards .card{
+    width: 297.5px;
+    height: 439px;
+    padding: 0px;
+}
+
+.activites-cards .card img{
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activites-cards{
+    display: flex;
+    flex-direction: row;
+    gap : 30px;
+}
+
+.activites .card-title{
+    padding-left: 16px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 1340px;
+    height: 163px;
+    background-color: #F2F2F2;
+}
+
+.footer-content h3{
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.footer-content a{
+    font-size: 16px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 446.67px;
+    height: 143px;
+    padding: 20px 20px 0px 20px;
+    gap: 15px;
+}
+
