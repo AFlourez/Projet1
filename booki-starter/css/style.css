@@ -20,7 +20,7 @@ body {
     margin: auto;   
 }
 
-.main-container {
+.main-wrapper {
     /* max-width: 1440px; */
     margin: auto;   
 }
@@ -219,7 +219,7 @@ ul {
     list-style-type: none;
     display: flex;
     margin:0px;
-    min-width: 344px;
+    /* min-width: 344px; */
     /* max-width: 244px; */
     gap: 68px;
     padding: 0px;
@@ -476,7 +476,7 @@ footer {
         padding: 0px 50px;
     }
 
-    .main-container{
+    .main-wrapper{
         /* max-width: 924px; */
         margin: auto;
     }
