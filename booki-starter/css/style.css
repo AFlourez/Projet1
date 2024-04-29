@@ -27,10 +27,6 @@ body {
 
 }
 
-.main-wrapper {
-    /* max-width: 1440px; */
-    margin: auto;   
-}
 
 main {
     width: 100%;
@@ -503,19 +499,13 @@ footer {
 
     body {
         max-width: 924px;
-        padding: 0px 50px;
-    }
-
-    .main-wrapper{
-        /* max-width: 924px; */
-        margin: auto;
+        /* padding: 0px 50px; */
     }
 
 
     .Filtres{
         display: flex;
         flex-direction: column;
-
     }
 
     .hebergements-and-populaires {
@@ -603,25 +593,24 @@ footer {
         max-height: 270px;
     }
 
-
     .activites-cards .card img{
         max-width: 193.5px;
         max-height: 200px;
     }
 
-
     .card img{
         object-fit: cover;
     }
-
-
 }
 /* Small devices (phones, less than 768px) */
 
 @media screen and (max-width: 767.98px){
+
     body{
         max-width: 767.98px;
         padding: 0px 0px;
+        display: flex;
+        justify-content: center;
     }
 
     main{
@@ -689,10 +678,6 @@ footer {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .raccourcis{
-        gap: 10px;
     }
 
     button span{
@@ -781,7 +766,7 @@ footer {
     }
 
     .activites{
-        max-width: 325px;
+        max-width: 315px;
         display: flex;
         /* flex-direction: column; */
         margin: auto;
@@ -790,7 +775,6 @@ footer {
 
     .activites-cards{
         flex-direction: column;
-        width: 315px;
         padding: 0px;
     }
 
