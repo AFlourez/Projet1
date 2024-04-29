@@ -77,12 +77,9 @@ a .more {
     justify-content: space-between;
     width: 100%;
     margin-bottom: 30px;
-    /* height: 614px; */
-    /* gap: 40px */
 }
 
 .hebergements-and-populaires section {
-    /* background-color: var(--main-bg-color); */
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -102,7 +99,6 @@ a .more {
 
 .hebergements-cards{
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
@@ -117,14 +113,11 @@ a .more {
 }
 
 .hebergements .card img{
-    /* width: 100%; */
     height: 124px;
     border-radius: 20px 20px 0px 0px;
 }
 
 .hebergements .card-content{
-    /* width: 100%;
-    height: 64.25px; */
     padding: 0px 15px 0px 15px;
     gap: 8px;
     
@@ -146,7 +139,6 @@ a .more {
 .plus h3{
     display: flex;
     align-items: end;
-    /* font-size: 18px; */
     padding-top: 30px;
     margin: 0px;
 }
@@ -173,7 +165,6 @@ a .more {
 .populaires-cards .card {
     display: flex;
     flex-direction: row;
-    /* margin-top: 33px; */
 }
 
 .populaires-cards img {
@@ -205,10 +196,6 @@ a .more {
     margin-bottom: 5px;
 }
 
-
-
-/*  */
-
 header{
     display: flex;
     flex-direction: row;
@@ -224,14 +211,11 @@ ul {
     list-style-type: none;
     display: flex;
     margin:0px;
-    /* min-width: 344px; */
-    /* max-width: 244px; */
     gap: 68px;
     padding: 0px;
   }
 
 li{
-    /* width: 50%; */
     padding-top: 16px;
     text-align: center;
 }
@@ -251,28 +235,23 @@ nav {
 .search {
     display: flex;
     justify-content: flex-start;
-    /* width: 377px; */
+    
     height: 49px;
     padding: 35px 0px 35px 0px;
   }
 
-/* A l'avenir, faire d'abord la div, puis ajouter le logo */
 .search i{
     display: flex;
     min-width: 50px;
-    /* height: 49px; */
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     justify-content: center;
     align-items: center;
 }
-/*  */
-
 
 .search input {
     width: 148px;
-    /* height: 21px; */
     padding: 16px 19px 10px 19px;
     border-top: 1px solid #F2F2F2;
     border-left: none;
@@ -294,23 +273,18 @@ nav {
 }
 
 .search button {
-    /* width: 132px;
-    height: 49px; */
     border-radius: 0px 15px 15px 0px;
     padding: 15px 16px 15px 16px;
     background-color: #0065FC;
     font-weight: bold;
     color: white;
     font-size: 18px;
-    /* gap: 10px; */
     border: 0px;
 }
 
 .containertop {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
-    /* height: 281px; */
     margin-bottom: 35px;
 }
 
@@ -327,9 +301,6 @@ nav {
 .Filtres{
     display: flex;
     justify-content: flex-start;
-    /* max-width: 758px;
-    width: 100%; */
-    /* height: 50px; */
     gap: 15px;
     padding-bottom: 35px;
 }
@@ -375,7 +346,6 @@ nav {
     justify-content: center;
     align-items: center;
     width: 22px;
-    /* height: 22px; */
 }
 
 .information {
@@ -383,8 +353,6 @@ nav {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    /* padding-bottom: 20px; */
-    /* width: 100%; */
 }
 
 .informationLogement{
@@ -421,7 +389,6 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    /* height: 559.02px; */
     padding: 30px;
     gap: 30px;
     margin: 30px 0px 30px 0px;
@@ -466,7 +433,6 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* height: 163px; */
     background-color: #F2F2F2;
     margin-top: 30px;
     margin-bottom: 0px;
@@ -500,7 +466,6 @@ footer {
 
     body {
         max-width: 924px;
-        /* padding: 0px 50px; */
     }
 
 
@@ -571,11 +536,8 @@ footer {
     }
 
     .activites {
-        /* max-width: 924px; */
         width: 100%;
-        /* margin: 30px 0px 30px 0px; */
         padding: 0px;
-        /* max-height: 390.02px; */
     }
 
     .activites-cards {
@@ -615,7 +577,6 @@ footer {
     }
 
     main{
-        /* max-width: auto; */
         margin: auto;
     }
 
@@ -628,7 +589,6 @@ footer {
     header{
         display: flex;
         flex-direction: column;
-        /* height: 115px; */
     }
 
     .logo{
@@ -745,7 +705,6 @@ footer {
    }
 
    .search{
-    /* max-width: 335px; */
     justify-content: center;
     padding: 20px 0px 20px 0px;
     
@@ -760,7 +719,6 @@ footer {
     display: none;
 }
 
-/* Ajoute une marge à l'icône pour l'espacement */
     .search-button i {
         display: inline;
         background-color: #0065FC;
@@ -769,7 +727,6 @@ footer {
     .activites{
         max-width: 315px;
         display: flex;
-        /* flex-direction: column; */
         margin: auto;
         padding-bottom: 50px;
     }
